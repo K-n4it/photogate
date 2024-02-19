@@ -1,0 +1,51 @@
+.header {
+  background-color: #3C4A3E;
+  border-bottom: 1px solid #BFBFBF;
+  box-shadow: 0 1px 5px #000000;
+  display: flex;
+}
+
+.header-title {
+  color: #EFFDF1;
+  margin: .5rem;
+  font-size: 2.5rem;
+  font-weight: 350;
+  text-shadow: 0 1px 5px #000000;
+}
+
+/* MOBILE STYLES */
+
+.mobile-header-button {
+  display: none;
+}
+
+@media screen and (max-width: 770px) {
+
+  .header {
+    justify-content: space-between;
+  }
+
+  .header-title {
+    font-size: 1.8rem;
+  }
+
+  .mobile-header-button {
+    display: block;
+
+    background-color: #3C4A3E;
+    border: 1px solid #BFBFBF;
+    width: 4rem;
+  }
+
+  .mobile-header-button:active {
+    filter: brightness(1.2);
+  }
+
+  /* BOOTSTRAP ICONS STYLES */
+
+  .bi-header {
+    color: #D9D9D9;
+    font-size: 2rem;
+  }
+
+}

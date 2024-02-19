@@ -1,0 +1,127 @@
+.main-form {
+  height: 2.8rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.main-form-search-section {
+  margin-right: 10px;
+  outline: 1px solid #BFBFBF;
+  box-shadow: 0 0 5px #000000;
+  border-radius: 11px;
+  display: flex;
+}
+
+.main-form-text {
+  background-color: #3C4A3E;
+  width: 18vw;
+  padding: 0 10px;
+  border: none;
+  border-radius: 10px 0 0 10px;
+  color: #EFFDF1;
+  font-size: 1rem;
+  flex-grow: 2;
+}
+
+.main-form-submit {
+  background-color: #00B050;
+  min-width: 3rem;
+  border: none;
+}
+
+.main-form-submit:hover {
+  box-shadow: 0 0 5px #00B050;
+  cursor: pointer;
+  filter: brightness(1.2);
+}
+
+.main-form-submit:active {
+  box-shadow: 0px 0px 8px #000000;
+}
+
+.main-form-submit-search {
+  border-radius: 0 10px 10px 0;
+}
+
+.main-form-submit-add {
+  border-radius: 10px;
+}
+
+/* BOOTSTRAP ICONS STYLES */
+
+.bi-searcher {
+  color: #EFFDF1;
+  font-size: 1.5rem;
+}
+
+/* MOBILE STYLES */
+
+.MOBILE-main-form-submit-add {
+  display: none;
+}
+
+/* MOBILE STYLES */
+
+@media screen and (max-width: 770px) {
+
+  .main-form {
+    background-color: #3C4A3E;
+    height: auto;
+    padding: 10px 20px;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0 1px 5px #000000;
+    justify-content: center;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: -100%;
+    z-index: 1;
+  }
+
+  .main-form-search-section {
+    width: 100%;
+    max-width: 25rem;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-shadow: none;
+    border-radius: none;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .main-form-text {
+    background-color: #F2F2F2;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 15px 12px;
+    border: none;
+    border-radius: 10px;
+    color: #000000;
+  }
+
+  .main-form-submit {
+    min-width: 4rem;
+    margin: 0 8px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  .main-form-active {
+    top: auto;
+  }
+
+  /* shows the search submit button of the mobile version of the page */
+
+  .MOBILE-main-form-submit-add {
+    display: block;
+  }
+
+  /* hides the search submit button of the desktop version of the page */
+
+  .main-form-submit-add {
+    display: none;
+  }
+  
+}
