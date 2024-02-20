@@ -22,7 +22,7 @@ function Searcher({ searchTerm, requestPhotos, showMainForm }) {
         onChange={(event) => getText(event)} />
         <button 
         className="main-form-submit main-form-submit-search main-form-element" 
-        type="submit" 
+        title="Search" 
         // calls the requestPhotos function when search button is clicked (updates the main section container)
         onClick={(event) => requestPhotos(event, searchTerm, true)}>
           <i className="bi bi-searcher bi-search main-form-element"></i>
@@ -32,7 +32,7 @@ function Searcher({ searchTerm, requestPhotos, showMainForm }) {
         
         <button 
         className="main-form-submit MOBILE-main-form-submit-add main-form-element" 
-        type="submit" 
+        title="Add section" 
         // calls the requestPhotos function when add section button is clicked (updates the secondary sections container)
         onClick={(event) => requestPhotos(event, searchTerm, false)}>
           <i className="bi bi-searcher bi-plus-square-fill main-form-element"></i>
@@ -44,7 +44,7 @@ function Searcher({ searchTerm, requestPhotos, showMainForm }) {
 
       <button 
       className="main-form-submit main-form-submit-add mobile-hidden-element" 
-      type="submit" 
+      title="Add section" 
       // calls the requestPhotos function when add section button is clicked (updates the secondary sections container)
       onClick={(event) => requestPhotos(event, searchTerm, false)}>
         <i className="bi bi-searcher bi-plus-square-fill"></i>
