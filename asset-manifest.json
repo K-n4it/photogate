@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/photogate/static/css/main.4dda119d.css",
-    "main.js": "/photogate/static/js/main.c4a837ba.js",
+    "main.js": "/photogate/static/js/main.deebf075.js",
     "static/js/787.7e630004.chunk.js": "/photogate/static/js/787.7e630004.chunk.js",
     "index.html": "/photogate/index.html",
     "main.4dda119d.css.map": "/photogate/static/css/main.4dda119d.css.map",
-    "main.c4a837ba.js.map": "/photogate/static/js/main.c4a837ba.js.map",
+    "main.deebf075.js.map": "/photogate/static/js/main.deebf075.js.map",
     "787.7e630004.chunk.js.map": "/photogate/static/js/787.7e630004.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4dda119d.css",
-    "static/js/main.c4a837ba.js"
+    "static/js/main.deebf075.js"
   ]
 }
